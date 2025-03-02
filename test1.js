@@ -10,8 +10,8 @@ const images = [
     { id: "2/3", color: "red", bg: "#b71c1c" },
     { id: "3/3", color: "red", bg: "#ff4081" },
 
-    { id: "1/4", color: "green", bg: "#ffeb3b" },
-    { id: "2/4", color: "green", bg: "#cddc39" },
+    { id: "1/4", color: "green", bg: "#73ff3b" },
+    { id: "2/4", color: "green", bg: "#baef56" },
     { id: "3/4", color: "green", bg: "#4caf50" },
     { id: "4/4", color: "green", bg: "#1b5e20" },
 ];
@@ -82,6 +82,7 @@ featureContainer.style.alignItems = "center";
 featureContainer.style.justifyContent = "center";
 featureContainer.style.fontSize = "24px";
 featureContainer.style.color = "black";
+featureContainer.style.position= "relative";
 
 
 document.getElementById("buttons").style.marginBottom = "10px";

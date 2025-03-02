@@ -9,3 +9,11 @@
 .box{
     margin-left: 50px;
 }
+
+.headcords{
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+}
